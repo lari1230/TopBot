@@ -116,7 +116,7 @@ class Program
                 await botClient.EditMessageTextAsync(chatId, messageId, "Меню ЧаВо:",
                     replyMarkup: new InlineKeyboardMarkup(new[]
                     {
-                        InlineKeyboardButton.WithUrl("Перейти на сайт", "https://youtube.com/"),
+                        InlineKeyboardButton.WithUrl("Перейти на сайт", "http://journal-top-academy.ru"),
                         InlineKeyboardButton.WithCallbackData("Назад", "main_menu")
                     }),
                     cancellationToken: cancellationToken);
